@@ -1,2 +1,2 @@
-pl.softwaremill.demo.working.alternatives.extension.AlternativesExtension
-pl.softwaremill.demo.working.beans.extension.CanAccessExtension
+pl.softwaremill.demo.alternatives.extension.AlternativesExtension
+pl.softwaremill.demo.beans.extension.CanAccessExtension
