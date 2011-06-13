@@ -132,31 +132,14 @@
 
     <repositories>
         <repository>
-            <id>softwaremill-jbison-repository</id>
-            <name>Softwaremill JBison Repository Group</name>
-            <url>http://tools.softwaremill.pl/nexus/content/groups/jbison-repos/</url>
-            <layout>default</layout>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
+            <id>softwaremill-snapshots</id>
+            <name>SoftwareMill Snapshots</name>
+            <url>http://tools.softwaremill.pl/nexus/content/repositories/snapshots</url>
+        </repository>
+        <repository>
+            <id>softwaremill-releases</id>
+            <name>SoftwareMill Releases</name>
+            <url>http://tools.softwaremill.pl/nexus/content/repositories/releases</url>
         </repository>
     </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>softwaremill-jbison-repository</id>
-            <name>Softwaremill JBison Repository Group</name>
-            <url>http://tools.softwaremill.pl/nexus/content/groups/jbison-repos/</url>
-            <layout>default</layout>
-            <releases>
-                <enabled>true</enabled>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-            </snapshots>
-        </pluginRepository>
-    </pluginRepositories>
 </project>
